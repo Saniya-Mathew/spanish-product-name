@@ -3,7 +3,7 @@
     <t t-name="spanish_product_name.OrderlineSpanishName" t-inherit="point_of_sale.Orderline" t-inherit-mode="extension" owl="1">
         <xpath expr="//li[hasclass('price-per-unit')]" position="before">
             <div t-if="spanishName" style="font-size: 16px; color: #000; margin-bottom:5px;">
-                <t t-esc="spanishName"/>
+                <strong>Spanish Name: </strong> <t t-esc="spanishName"/>
             </div>
         </xpath>
     </t>

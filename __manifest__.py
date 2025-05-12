@@ -2,7 +2,7 @@
         'name': "Spanish Product Name",
         'version': '1.0',
         'type': 'module',
-        'depends': ['base','product',],
+        'depends': ['base','point_of_sale'],
         'author': "San",
         'category': 'Category',
         'description': """showing the product name also in spanish language""",
@@ -19,8 +19,8 @@
     'assets': {
         'point_of_sale._assets_pos': [
             'spanish_product_name/static/src/js/product.js',
-            'spanish_product_name/static/src/xml/spanish_name.xml',
-            'spanish_product_name/static/src/xml/orderline.xml'
+            'spanish_product_name/static/src/xml/pos_orderline.xml',
+            'spanish_product_name/static/src/xml/pos_product_card.xml'
         ],
     },
 }

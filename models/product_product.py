@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from odoo import fields, models, api
 
 
@@ -9,7 +10,6 @@ class PosSessionCustom(models.Model):
 
     @api.model
     def _load_pos_data_fields(self, config_id):
-        print("hii")
         spanish_name = super()._load_pos_data_fields(config_id)
         spanish_name += ['spanish_translation']
         return spanish_name

@@ -19,7 +19,8 @@
     'assets': {
         'point_of_sale._assets_pos': [
             'spanish_product_name/static/src/js/product.js',
-            'spanish_product_name/static/src/xml/OrderReceipt.xml'
+            'spanish_product_name/static/src/xml/spanish_name.xml',
+            'spanish_product_name/static/src/xml/orderline.xml'
         ],
     },
 }
